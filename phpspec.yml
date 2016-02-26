@@ -1,0 +1,7 @@
+formatter.name: pretty
+suites:
+    src:
+        namespace: RemiSan\Specification
+        psr4_prefix: RemiSan\Specification
+        spec_path: ./spec
+        src_path: src
