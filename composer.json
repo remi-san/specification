@@ -1,6 +1,7 @@
 {
     "name": "remi-san/specification",
     "description": "Specification pattern classes",
+    "license": "MIT",
     "authors": [
       {
           "name": "Rémi San",
