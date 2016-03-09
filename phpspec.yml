@@ -3,5 +3,14 @@ suites:
     src:
         namespace: RemiSan\Specification
         psr4_prefix: RemiSan\Specification
-        spec_path: ./spec
+        spec_path: ./tests
         src_path: src
+extensions:
+  - PhpSpec\Extension\CodeCoverageExtension
+code_coverage:
+  format:
+    - html
+    - clover
+  output:
+    html: coverage
+    clover: coverage.xml
