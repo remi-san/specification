@@ -6,6 +6,8 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Packagist Version](https://img.shields.io/packagist/v/remi-san/specification.svg?style=flat-square)](https://packagist.org/packages/remi-san/specification)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/remi-san/specification.svg?style=flat-square)](https://scrutinizer-ci.com/g/remi-san/specification/code-structure)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/31c06166-8359-45e1-9024-6ee50997ecd7/small.png)](https://insight.sensiolabs.com/projects/31c06166-8359-45e1-9024-6ee50997ecd7)
+
 
 A lib to ease the use the **specification pattern**.
 
@@ -16,4 +18,3 @@ the following methods from the `Specification` interface:
  - `not`
  
  You'll have to implement the `isSatisfiedBy` method to add the domain logic.
- 
